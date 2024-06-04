@@ -195,7 +195,7 @@ vim.api.nvim_create_autocmd({
 	"TextChangedI",
 	"TextChangedP",
 	"LspAttach",
-	"BufEnter",
+--	"BufEnter",
 }, {
 	callback = M.handle_change_autocmd_callback,
 })
